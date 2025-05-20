@@ -1,6 +1,7 @@
 .contact {
     width: 100vw;
-    max-height: 455px;
+    max-height: 600px;
+    height: 600px;
     position: relative;
     display: flex;
     flex-flow: row nowrap;
@@ -10,9 +11,9 @@
 .contact_title {
     position: absolute;
     color: #262626;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: bold;
-    right: 4rem;
+    right: 5rem;
     top: 0%;
     transform: translateY(-50%) rotate(-90deg);
     transform-origin: right center;
@@ -38,9 +39,12 @@
 
 .contact_form_container {
     background-color: white;
-    height: 510px;
+    height: 650px;
     width: 30%;
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row nowrap;
+    color: black;
 }
 
 .contact_info_links {
@@ -79,6 +83,7 @@
 .contact_form h2 {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .contact_form label {
@@ -90,11 +95,13 @@
 .contact_form input,
 .contact_form textarea {
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 2px solid #ccc;
     padding: 0.5rem 0;
     font-size: 0.95rem;
     background: none;
     outline: none;
+    color: #000; /* ← Ensure text is visible */
+    transition: border-color 0.3s ease;
 }
 
 .contact_form input::placeholder,
@@ -105,7 +112,7 @@
 .contact_form button {
     margin-top: 1.5rem;
     padding: 0.7rem 1rem;
-    background-color: #f44336;
+    /* background-color: #f44336; */
     color: white;
     border: none;
     cursor: pointer;
@@ -115,5 +122,22 @@
 }
 
 .contact_form button:hover {
-    background-color: #d7372e;
+    background-color: #f79d4c;
+    box-shadow: none;
+}
+
+.contact_form input:focus,
+.contact_form textarea:focus {
+    border-bottom: 2px solid #f79d4c;
+}
+
+.contact_form input::placeholder,
+.contact_form textarea::placeholder {
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.contact_form input:focus::placeholder,
+.contact_form textarea:focus::placeholder {
+    color: #f79d4c;
 }

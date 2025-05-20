@@ -5,7 +5,7 @@ import Python from '../assets/pythonlogo.png'
 
 function Skills() {
     return (
-        <section className="skill">
+        <section className="skill" id="skills">
             <div className="skill_title">
                 <span className="angle_bracket">{'<'}</span>
                 <span className="title_text">specialized</span>

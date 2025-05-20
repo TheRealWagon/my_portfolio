@@ -8,7 +8,7 @@ function Header() {
         <img height="50" src={logo} alt="ODY_tech logo" />
       </div>
       <nav>
-        <a href="#Work">Work</a>
+        <a href="#skills">Skills</a>
         <div className="Header__Nav__Circle"></div>
         <a href="#about">About</a>
         <div className="Header__Nav__Circle"></div>
