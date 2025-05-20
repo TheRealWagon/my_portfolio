@@ -1,0 +1,49 @@
+.about {
+    width: 100vw;
+    background-color: #101010;
+    position: relative;
+    padding-top: 150px; /* Add this to push content down below the absolute title */
+}
+
+.about_title {
+    position: absolute;
+    color: #262626;
+    font-size: 8rem;
+    font-weight: bold;
+    top: 0px;
+    left: 150px;
+}
+
+.about_container {
+    height: 250px;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80vw;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+.about_item_title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.about_item_description {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    width: 70%;
+    margin-top: 5px;
+}
+
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f79d4c;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    color: white;
+    font-size: 18px;
+}
