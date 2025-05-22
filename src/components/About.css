@@ -47,3 +47,7 @@
     color: white;
     font-size: 18px;
 }
+
+.about_item_button {
+    text-decoration: none;
+}

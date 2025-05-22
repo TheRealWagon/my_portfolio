@@ -39,7 +39,7 @@ function Hero() {
                     Crafting sleek web apps with modern UI/UX. Let's team up — I’m open
                     for freelance work!
                 </p>
-                <button>Projects</button>
+                <a href="#skills"><button>Skills</button></a>
             </div>
             <div className="carousel-wrapper">
                 {images.map((img, i) => (

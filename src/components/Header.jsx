@@ -14,7 +14,7 @@ function Header() {
         <div className="Header__Nav__Circle"></div>
         <a href="#contact">Contact</a>
       </nav>
-      <button>Hire me</button>
+      <a href="#contact"><button>Hire me</button></a>
     </header>
   );
 }

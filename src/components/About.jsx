@@ -14,11 +14,18 @@ function About() {
             <div className='about_container'>
                 <div>
                     <div className='about_item_title'>My <br />Biography</div>
-                    <button style={{display: 'flex', alignItems: 'center', gap: '10px'}} className='about_item_button'>
-                        <span className="icon-circle">
-                            <HiDownload />
-                        </span>Download CV
-                    </button>
+                    <a
+                        href="/Thomas_odvart_cv.png"
+                        download
+                        style={{ display: 'flex', alignItems: 'center', gap: '10px' }}
+                        className="about_item_button"
+                    >
+                        <button style={{display: 'flex', alignItems: 'center', gap: '10px'}} className='about_item_button'>
+                            <span className="icon-circle">
+                                <HiDownload />
+                            </span>Download CV
+                        </button>
+                    </a>
                 </div>
                 <div className='about_item_description'>
                     <div>I'm Thomas Odvart, a student-entrepreneur from Belgium with a passion for IT and technology.
