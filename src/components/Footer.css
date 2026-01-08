@@ -8,3 +8,23 @@
     align-items: center;
     font-weight: bold;
 }
+
+.footer_paragraph {
+    margin-left: 100px;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+        padding: 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .footer_paragraph {
+        margin-left: 0px;
+    }
+}

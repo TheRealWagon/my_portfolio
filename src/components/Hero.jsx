@@ -27,6 +27,7 @@ function Hero() {
             <div className="hero-text">
                 <h2>
                     Hi! I'm <span className="highlight">Thomas</span>{" "}
+                    <br className="mobile-break" />
                     <span className="role-wrapper">
                         <span key={index} className={`role-slide ${fade ? "fade" : ""}`}>
                             {roles[index]}

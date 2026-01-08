@@ -39,3 +39,31 @@
     width: 39%;
     height: 80%;
 }
+
+@media (max-width: 768px) {
+    .projects {
+        padding-top: 60px;
+    }
+
+    .projects_title {
+        position: static;
+        font-size: 2.5rem;
+        color: #1C1C1C;
+        margin: 0.5rem 1rem;
+    }
+
+    .projects_container {
+        width: 92vw;
+        flex-direction: column;
+        height: auto;
+        margin: 1rem auto 2rem auto;
+        gap: 1rem;
+    }
+
+    .projects_number1,
+    .projects_number2,
+    .projects_number_container {
+        width: 100%;
+        height: auto;
+    }
+}

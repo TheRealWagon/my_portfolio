@@ -13,9 +13,9 @@ function About() {
             </div>
             <div className='about_container'>
                 <div>
-                    <div className='about_item_title'>My <br />Biography</div>
+                    <div className='about_item_title'>My <br className="desktop-break"/>Biography</div>
                     <a
-                        href="/Thomas_odvart_cv.png"
+                        href="/Thomas_Odvart_CV.pdf"
                         download
                         style={{ display: 'flex', alignItems: 'center', gap: '10px' }}
                         className="about_item_button"
